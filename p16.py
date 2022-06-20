@@ -13,7 +13,7 @@ genrd()
 #EJERCICIO N° 16
 """     calcular la media aritmetica del vector de list    """
 
-def fun16():
+def media():
     counter = 0
     for i in list:
         counter += i
