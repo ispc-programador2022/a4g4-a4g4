@@ -1,7 +1,7 @@
 from suma import suma
 from ing2i import ing2i
 from media import media
-
+from genrd import genrd
 
 
 def bienvenida():
@@ -19,7 +19,7 @@ def bienvenida():
         elif opcion == 2:
             print('resta(var1, var2)')
         elif opcion == 16:
-            list
+            list = genrd()
             print(media(list))
         else:
             print('no esta dentro de las opciones')
