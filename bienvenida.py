@@ -30,6 +30,7 @@ def printMenu():
     print('Esta aplicacion pertenece al aula 4 grupo 4,vamos a desarrollar diferentes funciones con lo aprendido')
     print("1. Para Sumar")
     print("2. para restar")
+    print("3. para calcular la media")
     print("0. Salir")
     
 
