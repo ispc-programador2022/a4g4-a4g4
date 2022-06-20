@@ -1,5 +1,6 @@
 from suma import suma
 from ing2i import ing2i
+from media import media
 
 
 
@@ -17,6 +18,9 @@ def bienvenida():
             print(suma(var1, var2))
         elif opcion == 2:
             print('resta(var1, var2)')
+        elif opcion == 16:
+            list
+            print(media(list))
         else:
             print('no esta dentro de las opciones')
             
