@@ -1,4 +1,5 @@
 from suma import suma
+from potencia import potencia
 from ing2i import ing2i
 from media import media
 from genrd import genrd
@@ -19,6 +20,8 @@ def bienvenida():
             print(suma(var1, var2))
         elif opcion == 2:
             print('resta(var1, var2)')
+        elif opcion == 6:
+            print(potencia(var1,var2))
         elif opcion == 11:
             print(p3)
         elif opcion == 16:
@@ -33,6 +36,7 @@ def printMenu():
     print('Esta aplicacion pertenece al aula 4 grupo 4,vamos a desarrollar diferentes funciones con lo aprendido')
     print("1. Para Sumar")
     print("2. para restar")
+    print("6. Para hacer la potencia del 1er valor elevado al 2do valor")
     print("11. Para ejecutar la operación de resta y multiplicación con tercer parametro")
     print("16. para calcular la media")
     print("0. Salir")
