@@ -25,7 +25,7 @@ def bienvenida():
         elif opcion == 2:
             print('resta(var1, var2)')
         elif opcion == 3:
-            print(producto(var1, var2))
+            print("El producto entre", var1, "y", var2, "es:", producto(var1, var2))
         elif opcion == 4:
             print('cociente(var1, var2)')
         elif opcion == 5:

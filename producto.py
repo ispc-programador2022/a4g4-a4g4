@@ -1,2 +1,2 @@
-def producto(n1, n2):
-    return n1 * n2
+def producto(valor1, valor2):
+    return valor1 * valor2
