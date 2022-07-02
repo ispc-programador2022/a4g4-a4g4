@@ -4,7 +4,7 @@ from potencia import potencia
 from ing2i import ing2i
 from media import media
 from genrd import genrd
-from p11 import p11 as p3
+from p11 import fun11 as p3
 from radicacion import radicacion
 from producto import producto
 
@@ -12,14 +12,12 @@ lista_cargada = False
 
 def bienvenida():
     ultimaOpcionValida = 31
+    var1, var2 = ing2i()
     while True:
         printMenu()
         opcion = int(input('Ingrese la operacion que desee realizar: '))
         if opcion == 0:
-            break
-        if opcion >0 or opcion <= ultimaOpcionValida:
-            var1, var2 = ing2i()
-        
+            break        
         if opcion == 1:        
             print(suma(var1, var2))
         elif opcion == 2:
@@ -39,7 +37,7 @@ def bienvenida():
         elif opcion == 10:
             print('p2(var1, var2)')
         elif opcion == 11:
-            print(p3)
+            print(p3(var1, var2))
         elif opcion == 12:
             list = genrd()
             lista_cargada = True
