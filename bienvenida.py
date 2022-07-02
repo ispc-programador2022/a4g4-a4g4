@@ -5,6 +5,7 @@ from ing2i import ing2i
 from media import media
 from genrd import genrd
 from p11 import p11 as p3
+from radicacion import radicacion
 from producto import producto
 
 lista_cargada = False
@@ -32,7 +33,7 @@ def bienvenida():
         elif opcion == 6:
             print(potencia(var1,var2))
         elif opcion == 7:
-            print('radicacion(var1, var2)')
+            print(radicacion(var1, var2))
         elif opcion == 9:
             print('p1(var1, var2)')
         elif opcion == 10:
